@@ -1,36 +1,176 @@
-
+.row{
+    margin-right: 0 !important;
+}
 .nav-bar{
     padding-right: 15px;
     background-color: grey;
     font-weight: bold;
     color: black;
 }
-.content-para{
-  background-color:blue;
-  color: white;
-  height: 50%;
+.banner-section{
+    background-color:blue;
+    color: white;
+    height: auto;
 }
-.headmsg1{
+.banner-section h1{
     color: white;
     padding-top: 80px;
-    padding-left: 80px;
+    margin-left: 11%;
     font-weight: bold;
+    font-size: 300%;
 }
-.headmsg2{
+.banner-section h2{
     color: white;
-    padding-left: 80px;
-    /* margin:80p */
+    margin-left: 11%;
+    padding-bottom: 2%;
     font-weight: bold;
+    font-size: 390%;
+    border-bottom: 2px solid white;
 }
-.content-para .headimg{
-    width: 40%;
-    height: 20%;
+.banner-icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    margin-left: 20%;
+}
+.banner-icons>span{
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 18px;
+}
+.image-area{
+    display: flex;
+    justify-content: flex-end;
+    }
+.banner-image{
+    width: 50%;
     border-radius: 50%;
-    padding-left: 25%;
+    padding: 20px 20px;
+    margin-right: 20px;
 }
-.headimg img{
-    border-radius: 80%;
-    width: 173%;
-    height: 40%;
-    padding: 30%;
+.aboutme{
+    text-align: center;
+    margin:15px 15px;
+    font-weight:bold;
 }
+.about-content p{
+line-height: 40px;
+padding: 20px;
+}
+.personal-info{
+    display: flex;
+    justify-content: center;
+}
+.personal-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    line-height: 30px;
+}
+.acadamics h2{
+    text-align: center;
+    margin:15px 15px;
+    font-weight:bold;
+}
+.acadamic-details{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 3%;
+}
+.skills h2{
+    text-align: center;
+    margin:15px 15px;
+    font-weight:bold;
+}
+.my-skills img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* .my-skills-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+} */
+.projects h2{
+    text-align: center;
+    margin:15px 15px;
+    font-weight:bold;
+}
+.project1{
+    padding: 3%;
+}
+.project1-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.project1-img img{
+    width:50%;
+}
+.project2-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.project2-img img{
+    width:50%;
+}
+.contact h2{
+    text-align: center;
+    margin:15px 15px;
+    font-weight:bold;
+}
+.contactus{
+    padding: 4%;
+    background-color: black;
+    color: white;
+    margin-right: 0 !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-details>span>i{
+    padding-right:5% ;
+    font-size:x-large
+}
+.icons-4{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-form{
+
+}
+.submit-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (min-width: 1281px) {
+    
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+   .banner-section h1{
+    font-size: 12px;
+   }
+   .banner-section h2{
+    font-size: 12px;
+   }
+  }
