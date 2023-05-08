@@ -27,7 +27,7 @@
     font-size: 390%;
     border-bottom: 2px solid white;
 }
-.banner-icons{
+.banner-icons .icons{
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -36,8 +36,9 @@
 }
 .banner-icons>span{
     font-weight: bold;
-    font-family: inherit;
+    /* font-family: sans-serif; */
     font-size: 18px;
+    margin-left: 40%;
 }
 .image-area{
     display: flex;
@@ -49,7 +50,7 @@
     padding: 20px 20px;
     margin-right: 20px;
 }
-.aboutme{
+.aboutme h2{
     text-align: center;
     margin:15px 15px;
     font-weight:bold;
@@ -79,6 +80,10 @@ padding: 20px;
     justify-content:space-evenly;
     padding: 3%;
 }
+.acadamic-details .card{
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+} 
 .skills h2{
     text-align: center;
     margin:15px 15px;
@@ -88,11 +93,6 @@ padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
 }
-/* .my-skills-icons{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 3%;
-} */
 .projects h2{
     text-align: center;
     margin:15px 15px;
@@ -173,4 +173,73 @@ padding: 20px;
    .banner-section h2{
     font-size: 12px;
    }
+   .banner-icons{
+    padding: 0;
+    margin-left: 20%;
+   }
+   .banner-icons>span{
+      font-size: 12px;
+      margin-left: -10%;
+   }
+   .icons i{
+    font-size: 1em;
+   }
+   .banner-image {
+    width: 93%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 38px 20px;
+    margin-right: 5%;
+    margin-left: 28px;
+    
   }
+  .image-area {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0%;
+}
+.banner-icons>.icons{   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 9%; */
+    margin-left: 20%;
+    margin-left: -15%;
+}
+.about-content p{
+    line-height: 1.5;
+}
+.acadamic-details .card{
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+} 
+.my-skills img {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 186px;
+}
+.project-details h1{
+    padding: 5%;
+}
+.project-details p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding: 5%;
+    
+}
+.project1-img img {
+    margin-left: 100%;
+    width: 100%;
+}
+.project2-img img {
+    margin-left: 100%;
+    width: 100%;
+}
+.icons-4 a{
+    margin-bottom: 10%;
+}
+.submit-btn{
+    margin-top: 5%;
+}
+
+}
