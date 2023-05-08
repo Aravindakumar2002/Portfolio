@@ -58,6 +58,7 @@
 .about-content p{
 line-height: 40px;
 padding: 20px;
+text-align: justify;
 }
 .personal-info{
     display: flex;
@@ -121,6 +122,9 @@ padding: 20px;
 .project2-img img{
     width:50%;
 }
+.project-details p{
+    text-align: justify;
+}
 .contact h2{
     text-align: center;
     margin:15px 15px;
@@ -148,6 +152,7 @@ padding: 20px;
 .submit-btn{
     display: flex;
     justify-content: flex-end;
+    padding-top: 5%;
 }
 
 @media (min-width: 1281px) {
@@ -208,6 +213,13 @@ padding: 20px;
 }
 .about-content p{
     line-height: 1.5;
+}
+.personal-info{
+    display: flex;
+    /* padding-left: 10%; */
+}
+.personal-info-wrapper{
+    /* padding-left: 30px; */
 }
 .acadamic-details .acadamic{
     padding-left: 6%;
