@@ -209,14 +209,19 @@ padding: 20px;
 .about-content p{
     line-height: 1.5;
 }
+.acadamic-details .acadamic{
+    padding-left: 6%;
+}
 .acadamic-details .card{
     margin-bottom: 10%;
     padding-bottom: 5%;
 } 
 .my-skills img {
-    margin-left: 10%;
+    /* margin-left: 10%;
     margin-right: 10%;
-    height: 186px;
+    height: 186px; */
+    height: 230px;
+    margin: 0;
 }
 .project-details h1{
     padding: 5%;
